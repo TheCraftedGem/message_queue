@@ -31,7 +31,7 @@ Your terminal should output a message similar to this.
 
 
 To process a message for a single queue you can use the following curl command from your terminal.
-  * `curl "http://localhost:4000/receive-message?queue=queue1&message=ProkeepWelcomesYou!"`
+  * `curl "http://localhost:4000/receive-message?queue=queue1&message=ProkeepWelcomesYou"`
   
   Your terminal should output a message similar to this. 
 

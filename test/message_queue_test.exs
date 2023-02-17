@@ -1,8 +1,6 @@
 defmodule MessageQueueTest do
   use ExUnit.Case, async: true
 
-  @start_time :os.system_time(:millisecond)
-
   test "processes only one message per second" do
     queue = "queue_name"
     messages = ["message1", "message2", "message3"]
